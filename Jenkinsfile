@@ -10,7 +10,7 @@ pipeline {
 
     stage('Using Worktile Pipeline') {
       steps {
-        sh 'wtctl'
+        sh 'wtctl.sh'
       }
     }
   }
